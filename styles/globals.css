@@ -1,13 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -19,12 +19,40 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+header {
+  height: 9rem;
+}
+
+.top-header::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  color: #333;
+}
+
+.btn {
+  border: none;
+  width: 5.8rem;
+  height: 2.2rem;
+}
+
+.btn-active {
+  background: coral;
+  padding: 0.9rem 1.6rem;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn-low {
+  background: transparent;
+  border: 2px solid coral;
+  border-radius: 8px;
+  color: coral;
+  padding: 0.9rem 1.6rem;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 1.8rem;
 }
