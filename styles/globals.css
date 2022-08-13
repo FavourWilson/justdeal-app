@@ -20,7 +20,8 @@ a {
 }
 
 header {
-  height: 9rem;
+  height: 5.4rem;
+  border-bottom: 1px solid rgb(177, 177, 177);
 }
 
 .top-header::after {

@@ -1,0 +1,10 @@
+.searchBox {
+  border: 2px solid rgb(153, 153, 153);
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+}
+
+.hey {
+  position: relative;
+  left: 10rem;
+}
