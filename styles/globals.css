@@ -3,6 +3,21 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
+:root {
+  --background: #e7e7e7;
+  --box-background: #f9f9f9;
+  --primaryColor: #f47a60;
+  --light-primaryColor: #ffbcae;
+  --secondaryColor: #193b45;
+  --borderColor: #828282;
+  --paidColor: #27ae60;
+  --unpaidColor: #333333;
+  --pendingColor: #f2994a;
+  --black-background: #1b1b1c;
+  --light-black-background: #e0e0e0;
+  --darkTeal: #193b45;
+}
+
 html,
 body {
   padding: 0;
