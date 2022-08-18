@@ -5,7 +5,22 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      coral: '#F47A60',
+    },
   },
+  theme: {
+    extend: {
+      colors: {
+        coral: '#F47A60',
+      },
+      height: {
+        347: '25.5rem',
+      },
+    },
+  },
+
   plugins: [],
 };

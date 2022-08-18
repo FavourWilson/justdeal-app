@@ -1,10 +1,22 @@
 .searchBox {
-  border: 2px solid rgb(153, 153, 153);
-  padding: 0.6rem 1.2rem;
-  border-radius: 10px;
+  border: 0.045rem solid rgb(153, 153, 153);
+  border-radius: 4.44px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+  margin-left: 2rem;
 }
 
-.hey {
-  position: relative;
-  left: 10rem;
+.searchInput {
+  padding: 0.469rem 1.688rem;
+  border: none;
+  width: 100%;
+  flex: 1;
+  outline: none;
+  margin-left: -12px;
+}
+
+.TrendCard {
 }

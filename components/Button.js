@@ -1,9 +1,30 @@
-const Button = ({ children }) => {
+import React from 'react';
+
+function Button({ classD, text }) {
   return (
-    <div className="button">
-      <button className="text-3xl font-bold">{children}</button>
-    </div>
+    <>
+      <button className={classD}>{text}</button>
+      <style jsx>
+        {`
+          .loginBtn {
+            color: #f47a60;
+            border: 0.71px solid #f47a60;
+            padding: 0.469rem 1.688rem;
+            border-radius: 5px;
+            margin-right: 16px;
+          }
+          .registerBtn {
+            background: #f47a60;
+            color: #fff;
+            border: 0.71px solid #f47a60;
+            padding: 0.469rem 1.688rem;
+            border-radius: 5px;
+            margin-right: 16px;
+          }
+        `}
+      </style>
+    </>
   );
-};
+}
 
 export default Button;

@@ -1,24 +1,21 @@
-import Head from 'next/head';
 import React from 'react';
+import Banner from './Banner';
+import Footer from './Footer';
 import Header from './Header';
+import TrendingProduct from './TrendingProduct';
 
-const Layout = ({ title, children }) => {
+const Layout = ({ children }) => {
   return (
     <>
-      <Head>
-        <title>{title ? title + ' - JustdealNG' : 'JustdealNG'}</title>
-        <meta
-          name="description"
-          content="A marketplace to buy and sell second-hand items to anyone anywhere."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="flex min-h-screen flex-col justify-between">
-        <Header />
-        <main className="xl:container xl:mx-auto mt-4 px-4">{children}</main>
-        <footer className="xl:container xl:mx-auto">
-          <p>Footer</p>
-        </footer>
+      <Header />
+      <div className="ml-8 mr-8">
+        <Banner />
+        {/* <main className="xl:container xl:mx-auto mt-4 px-4"> */}
+        {children}
+
+        {/* </main> */}
+        <TrendingProduct />
+        <Footer />
       </div>
     </>
   );
