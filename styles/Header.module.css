@@ -18,5 +18,11 @@
   margin-left: -12px;
 }
 
+.nav {
+  display: block;
+  border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+
 .TrendCard {
 }
