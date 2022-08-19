@@ -1,13 +1,32 @@
 import React from 'react';
+import headerStyles from '../styles/Header.module.css';
+import Pricetag from './Pricetag';
 
 const TrendingProduct = () => {
   return (
-    <div className="px-12 min-h-sceen grid grid-cols-2 gap-4">
-      <div className="border-2 border-black h-64">Hi</div>
-      <div className="border-2 h-32 grid grid-rows-2">Hi</div>
-      <div className="border-2 h-32 gid grid-rows-2">Hi</div>
-      <div className="border-2 border-black h-64">Hi</div>
-    </div>
+    <>
+      <p className="font-semibold text-xl ml-12 pb-4">Trending Products</p>
+      <div className={headerStyles.trendCard}>
+        <div className={headerStyles.tCard1}>
+          <Pricetag text="21,000" className="tag" />
+        </div>
+        <div className={headerStyles.tCard2}>
+          <Pricetag text="8,000" className="tag" />
+        </div>
+        <div className={headerStyles.tCard3}>
+          <Pricetag text="5,000" className="tag" />
+        </div>
+        <div className={headerStyles.tCard4}>
+          <Pricetag text="86,000" className="tag" />
+        </div>
+        <div className={headerStyles.tCard5}>
+          <Pricetag text="26,000" className="tag" />
+        </div>
+        <div className={headerStyles.tCard6}>
+          <Pricetag text="2,256,000" className="tag" />
+        </div>
+      </div>
+    </>
   );
 };
 

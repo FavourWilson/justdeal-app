@@ -18,5 +18,49 @@
   margin-left: -12px;
 }
 
-.TrendCard {
+.trendCard {
+  display: grid;
+  height: 38vh;
+  margin: 0 25px;
+  grid-template-areas:
+    'Tcard1 Tcard2 Tcard3 Tcard4'
+    'Tcard1 Tcard5 Tcard3 Tcard6';
+  gap: 20px;
+}
+
+.tCard1 {
+  grid-area: Tcard1;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+.tCard2 {
+  grid-area: Tcard2;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+.tCard3 {
+  grid-area: Tcard3;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+.tCard4 {
+  grid-area: Tcard4;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+.tCard5 {
+  grid-area: Tcard5;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+.tCard6 {
+  grid-area: Tcard6;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 5px;
 }

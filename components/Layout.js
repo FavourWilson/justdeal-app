@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className="ml-8 mr-8">
+      <div className="ml-32 mr-32">
         <Banner />
         {/* <main className="xl:container xl:mx-auto mt-4 px-4"> */}
         {children}

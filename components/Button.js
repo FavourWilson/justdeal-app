@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Button({ classD, text }) {
+function Button({ className, text }) {
   return (
     <>
-      <button className={classD}>{text}</button>
+      <button className={className}>{text}</button>
       <style jsx>
         {`
           .loginBtn {
