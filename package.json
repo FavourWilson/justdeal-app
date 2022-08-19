@@ -33,6 +33,7 @@
     "cross-env": "^7.0.3",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4",
+    "eslint-plugin-storybook": "^0.6.4",
     "husky": "^8.0.1",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
