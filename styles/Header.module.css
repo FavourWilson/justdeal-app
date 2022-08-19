@@ -18,6 +18,7 @@
   margin-left: -12px;
 }
 
+<<<<<<< HEAD
 .trendCard {
   display: grid;
   height: 38vh;
@@ -63,4 +64,10 @@
   border: 1px solid #000;
   padding: 20px;
   border-radius: 5px;
+=======
+.nav {
+  display: block;
+  border-bottom: 1px solid rgb(177, 177, 177);
+>>>>>>> b86b149e44c5c5c605dc05bdb6ac0cba56654a61
 }
+

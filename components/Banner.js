@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const banner = () => {
   return (
-    <div className="block mt-8 mb-8 ">
+    <div className="mt-8 mb-8 ">
       <Swiper
         spaceBetween={20}
         slidesPerView={2}
