@@ -17,7 +17,7 @@ const TrendingProduct = () => {
           <Pricetag text="5,000" className="tag" />
         </div>
         <div className={headerStyles.tCard4}>
-          <Pricetag text="86,000" className="taga" />
+          <Pricetag text="86,000" className="tag" />
         </div>
         <div className={headerStyles.tCard5}>
           <Pricetag text="26,000" className="tag" />
