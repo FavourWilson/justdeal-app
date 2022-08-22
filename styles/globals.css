@@ -39,7 +39,6 @@ header {
   border-bottom: 1px solid rgb(177, 177, 177);
 }
 
-
 .top-header::after {
   content: '';
   width: 100%;
@@ -72,4 +71,22 @@ header {
 
 .logo {
   font-size: 1.8rem;
+}
+
+.cats-box {
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 4rem;
+  /* width: 13rem; */
+
+  /* position: relative; */
+}
+
+.cats-box:hover {
+  background: #eeeeee;
 }

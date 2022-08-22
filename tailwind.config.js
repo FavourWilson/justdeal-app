@@ -10,8 +10,6 @@ module.exports = {
       current: 'currentColor',
       coral: '#F47A60',
     },
-  },
-  theme: {
     extend: {
       colors: {
         coral: '#F47A60',
@@ -19,8 +17,10 @@ module.exports = {
       height: {
         347: '25.5rem',
       },
+      container: {
+        center: true,
+      },
     },
   },
-
   plugins: [],
 };

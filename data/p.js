@@ -1,8 +1,8 @@
 const data = {
   products: [
     {
-      name: 'Brown lady longsleeve dress',
-      slug: 'brown-lady-longsleeve-dress',
+      name: 'Brown lady long sleeve dress',
+      slug: 'brown-lady-long sleeve-dress',
       category: 'Clothing',
       image: '/../public/assets/d1.png',
       price: 6300,
@@ -11,7 +11,7 @@ const data = {
       offer: 'Negotiable',
       contact: '09100011122',
       description:
-        'A brown longsleeve shirt for ladies, it`s brand new and very ok',
+        'A brown long sleeve shirt for ladies, it`s brand new and very ok',
       specification: {
         gender: 'Female',
         color: 'red',
@@ -20,8 +20,8 @@ const data = {
       },
     },
     {
-      name: 'Brown lady longsleeve dress',
-      slug: 'brown-lady-longsleeve-dress',
+      name: 'Brown lady long sleeve dress',
+      slug: 'brown-lady-long sleeve-dress',
       category: 'Clothing',
       image: '/../public/assets/d2.png',
       price: 6300,
@@ -30,7 +30,7 @@ const data = {
       offer: 'Negotiable',
       contact: '09100011122',
       description:
-        'A brown longsleeve shirt for ladies, it`s brand new and very ok',
+        'A brown long sleeve shirt for ladies, it`s brand new and very ok',
       specification: {
         gender: 'Female',
         color: 'red',
@@ -39,8 +39,8 @@ const data = {
       },
     },
     {
-      name: 'Brown lady longsleeve dress',
-      slug: 'brown-lady-longsleeve-dress',
+      name: 'Brown lady long sleeve dress',
+      slug: 'brown-lady-long sleeve-dress',
       category: 'Clothing',
       image: '/../public/assets/d1.png',
       price: 6300,
@@ -49,7 +49,7 @@ const data = {
       offer: 'Negotiable',
       contact: '09100011122',
       description:
-        'A brown longsleeve shirt for ladies, it`s brand new and very ok',
+        'A brown long sleeve shirt for ladies, it`s brand new and very ok',
       specification: {
         gender: 'Female',
         color: 'red',
@@ -58,8 +58,8 @@ const data = {
       },
     },
     {
-      name: 'Brown lady longsleeve dress',
-      slug: 'brown-lady-longsleeve-dress',
+      name: 'Brown lady long sleeve dress',
+      slug: 'brown-lady-long sleeve-dress',
       category: 'Clothing',
       image: '/../public/assets/d2.png',
       price: 6300,
