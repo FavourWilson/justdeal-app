@@ -82,26 +82,8 @@ const cat = {
       ],
     },
     {
-      slug: 'property',
-      category: 'Property',
-      subCategories: [
-        { sub: 'mobile phones' },
-        { sub: 'mobile phones' },
-        { sub: 'mobile phones' },
-      ],
-    },
-    {
-      slug: 'property',
-      category: 'Property',
-      subCategories: [
-        { sub: 'mobile phones' },
-        { sub: 'mobile phones' },
-        { sub: 'mobile phones' },
-      ],
-    },
-    {
-      slug: 'property',
-      category: 'Property',
+      slug: 'other-categories',
+      category: 'Other Categories',
       subCategories: [
         { sub: 'mobile phones' },
         { sub: 'mobile phones' },

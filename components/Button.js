@@ -13,6 +13,13 @@ function Button({ className, text }) {
             border-radius: 5px;
             margin-right: 16px;
           }
+          .loginBtn:hover {
+            background: #f47a60;
+            color: #fff;
+            border: none;
+            opacity: 0.8;
+            transition: ease-in 0.3s;
+          }
           .registerBtn {
             background: #f47a60;
             color: #fff;
@@ -20,6 +27,10 @@ function Button({ className, text }) {
             padding: 0.469rem 1.688rem;
             border-radius: 5px;
             margin-right: 16px;
+          }
+          .registerBtn:hover {
+            opacity: 0.8;
+            transition: ease-in 0.3s;
           }
         `}
       </style>
