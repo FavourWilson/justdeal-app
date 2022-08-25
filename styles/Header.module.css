@@ -72,14 +72,11 @@
 /************ Login Styles  **************/
 .formHead {
   margin: auto;
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 222px;
   flex: none;
-  flex-grow: 0;
-  order: 1;
   line-height: 126%;
 }
 
@@ -87,4 +84,119 @@
   font-weight: 500;
   font-size: 22px;
   color: #4f4f4f;
+}
+
+.formCard {
+  position: relative;
+  background: #fff;
+  width: 580px;
+  max-width: 580px;
+  padding: 25px 25px;
+  margin: 3rem auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px 0;
+  padding: 20px 42px 10px 42px;
+}
+.formContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 0;
+  padding: 10px 42px 0px 42px;
+}
+
+.formContainer input {
+  border: 1px solid #333333;
+  border-radius: 10px;
+}
+
+.inputGroup label {
+  color: #a1a1a1;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 20px;
+  cursor: text;
+  transition: 0.3s;
+}
+
+.formContainer input:focus ~ label {
+  top: -18px;
+  font-size: 14px;
+}
+
+.formContainer .inputGroup {
+  margin-bottom: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.forgetPassword {
+  font-size: 14px;
+  color: #316879;
+  display: flex;
+  align-self: flex-end;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.loginButton {
+  width: 300px;
+  height: 50px;
+  color: #fff;
+  font-weight: 500;
+  background: #ff8c75;
+  border-radius: 5px;
+  transition: all ease-in;
+}
+
+.btnFloat {
+  display: flex;
+  align-self: center;
+}
+
+.loginButton:hover,
+.loginButton:focus {
+  background: #f47a60;
+}
+
+.line::after {
+  content: '';
+  border: 0.5px solid #bdbdbd;
+  position: absolute;
+  display: flex;
+  align-self: center;
+  width: 90%;
+  height: 0px;
+}
+
+.formContainer1 p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #4f4f4f;
+  margin-bottom: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  column-gap: 8px;
+}
+
+.formContainer1 p:last-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.formContainer1 p a {
+  color: #f47a60;
+  font-weight: 600;
 }

@@ -15,7 +15,7 @@ const Register = () => {
     <>
       <Header />
       <Nav className="mb-8" />
-      <div className="card w-4/6 shadow-lg container flex flex-col align-items-center justify-content-center pt-12">
+      <div className={headerStyles.formCard}>
         <div className={headerStyles.formHead}>
           <Image
             src={Logo}
@@ -26,38 +26,51 @@ const Register = () => {
           />
           <h3 className="mt-2">Register an Account</h3>
         </div>
-        <div className={headerStyles.formContainer}>
-          <form>
-            <div className="input-box">
-              <label>FullName</label>
-              <input type="text" />
+        <form>
+          <div className={headerStyles.formContainer}>
+            <div className={headerStyles.inputGroup}>
+              <input
+                type="text"
+                className="w-[100%] outline-none py-[20px] px-[10px]"
+              />
+              <label className="">FullName</label>
             </div>
-            <div className="input-box">
-              <label>Username</label>
-              <input type="text" />
+            <div className={headerStyles.inputGroup}>
+              <input
+                type="text"
+                className="w-[100%] mb-0 py-[20px] px-[10px]"
+              />
+              <label className="">Username</label>
             </div>
-            <div className="input-box">
-              <label>Email Address</label>
-              <input type="email" />
+            <div className={headerStyles.inputGroup}>
+              <input
+                type="email"
+                className="w-[100%] mb-0 py-[20px] px-[10px]"
+              />
+              <label className="">Email</label>
             </div>
-            <div className="input-box">
-              <label>Password</label>
-              <input type="password" />
+            <div className={headerStyles.inputGroup}>
+              <input
+                type="password"
+                className="w-[100%] mb-0 py-[20px] px-[10px]"
+              />
+              <label className="">Password</label>
             </div>
-            <a>
-              By clicking Register, you acknowledge you have read and agreed to
-              our Terms of Use and Privacy Policy.
-            </a>
-            <Button text="Login" className="registerBtn" />
-          </form>
-          <div>
-            <p> &mdash;Or Register With&mdash; </p>
+            <div className={headerStyles.btnFloat}>
+              <Button text="Register" className={headerStyles.loginButton} />
+            </div>
+          </div>
+        </form>
+        <div className={headerStyles.line}></div>
+        <div className={headerStyles.formContainer1}>
+          <p> &mdash;Or Register With&mdash; </p>
+          <div className={headerStyles.socialIcons}>
             <Image
               src={facebook}
               alt="facebook logo"
               width={50}
               height={50}
-              className=""
+              className={headerStyles.firstIcon}
             />
             <Image
               src={gmail}
@@ -66,13 +79,13 @@ const Register = () => {
               height={50}
               className=""
             />
-            <p>
-              Already have an account?
-              <Link href="/login">
-                <a> Login.</a>
-              </Link>
-            </p>
           </div>
+          <p>
+            Already have an account?
+            <Link href="/login">
+              <a> Login.</a>
+            </Link>
+          </p>
         </div>
       </div>
       <Footer />

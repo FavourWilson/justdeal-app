@@ -15,7 +15,7 @@ const Login = () => {
     <>
       <Header />
       <Nav className="mb-8" />
-      <div className="card w-4/6 shadow-lg container flex flex-col align-items-center justify-content-center pt-12">
+      <div className={headerStyles.formCard}>
         <div className={headerStyles.formHead}>
           <Image
             src={Logo}
@@ -26,31 +26,40 @@ const Login = () => {
           />
           <h3 className="mt-2">Login to your Account</h3>
         </div>
-        <div className={headerStyles.formContainer}>
-          <form>
-            <div className="input-box">
-              <label>Email Address or Username</label>
-              <input type="text" />
+        <form>
+          <div className={headerStyles.formContainer}>
+            <div className={headerStyles.inputGroup}>
+              <input
+                type="text"
+                className="w-[100%] outline-none py-[20px] px-[10px]"
+              />
+              <label className="">Email Address or Username</label>
             </div>
-            <div className="input-box">
-              <label>Password</label>
-              <input type="text" />
+            <div className={headerStyles.inputGroup}>
+              <input
+                type="text"
+                className="w-[100%] mb-0 py-[20px] px-[10px] border-solid border-2 border-sky-500"
+              />
+              <label className="">Password</label>
             </div>
-            <Link href="/reset-password">
-              <a>Forget Password?</a>
+            <Link className={headerStyles.btnPost} href="/reset-password">
+              <a className={headerStyles.forgetPassword}>Forget Password?</a>
             </Link>
-            <a>
-              <Button text="Login" className="registerBtn" />
-            </a>
-          </form>
-          <div>
-            <p> &mdash;Or Login With&mdash; </p>
+            <div className={headerStyles.btnFloat}>
+              <Button text="Login" className={headerStyles.loginButton} />
+            </div>
+          </div>
+        </form>
+        <div className={headerStyles.line}></div>
+        <div className={headerStyles.formContainer1}>
+          <p> &mdash;Or Login With&mdash; </p>
+          <div className={headerStyles.socialIcons}>
             <Image
               src={facebook}
               alt="facebook logo"
               width={50}
               height={50}
-              className=""
+              className={headerStyles.firstIcon}
             />
             <Image
               src={gmail}
@@ -59,13 +68,13 @@ const Login = () => {
               height={50}
               className=""
             />
-            <p>
-              Don&apos;t have an account?
-              <Link href="/register">
-                <a> Register.</a>
-              </Link>
-            </p>
           </div>
+          <p>
+            Don&apos;t have an account?
+            <Link href="/register">
+              <a> Register.</a>
+            </Link>
+          </p>
         </div>
       </div>
       <Footer />
